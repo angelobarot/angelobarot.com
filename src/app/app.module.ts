@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { AboutComponent } from './modules/about/about.component'
-import { CareerComponent } from './modules/career/career.component'
+import { ContactComponent } from './modules/contact/contact.component'
 import { HomeComponent } from './modules/home/home.component'
 
 import { HeaderComponent } from './components/header/header.component'
@@ -15,7 +15,7 @@ import { NavigationComponent } from './components/navigation-bar/navigation-bar.
   declarations: [
     AppComponent,
     AboutComponent,
-    CareerComponent,
+    ContactComponent,
     HeaderComponent,
     HomeComponent,
     NavigationComponent
@@ -28,7 +28,7 @@ import { NavigationComponent } from './components/navigation-bar/navigation-bar.
   bootstrap: [
     AppComponent,
     AboutComponent,
-    CareerComponent,
+    ContactComponent,
     HeaderComponent,
     HomeComponent,
     NavigationComponent
