@@ -1,9 +1,15 @@
 div {
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin-top: 48px;
 
     img {
-        margin-top: 60px;
-        width: 560px;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .underconstruction-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 }

@@ -1,8 +1,5 @@
-.container {
-    display: flex;
-    justify-content: center;
-
-    .page {
-        max-width: 780px;
-    }
+.main {
+    display: block;
+    margin: 0 auto;
+    max-width: 640px;
 }
