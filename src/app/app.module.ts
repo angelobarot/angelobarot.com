@@ -8,6 +8,7 @@ import { AboutComponent } from './modules/about/about.component'
 import { ContactComponent } from './modules/contact/contact.component'
 import { HomeComponent } from './modules/home/home.component'
 
+import { FooterComponent } from './components/footer/footer.component'
 import { HeaderComponent } from './components/header/header.component'
 import { NavigationComponent } from './components/navigation-bar/navigation-bar.component'
 
@@ -16,6 +17,7 @@ import { NavigationComponent } from './components/navigation-bar/navigation-bar.
     AppComponent,
     AboutComponent,
     ContactComponent,
+    FooterComponent,
     HeaderComponent,
     HomeComponent,
     NavigationComponent
