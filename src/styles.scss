@@ -5,6 +5,12 @@
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
+:root {
+	--text: #F5F6FA;
+	--montserrat: 'Montserrat';
+    --content-margin: 1.5rem auto;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,28 +31,18 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+
 body {
-	line-height: 1;
+	line-height: 1.5;
     background-color: #353B48;
     font-family: 'Montserrat';
 }
-ol, ul {
-	list-style: none;
+
+p {
+	margin: var(--content-margin);
+	color: var(--text);
 }
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+p.medium {
+	font-size: 1.35rem;
 }
