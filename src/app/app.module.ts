@@ -27,11 +27,6 @@ import { NavigationComponent } from './components/navigation-bar/navigation-bar.
   providers: [],
   bootstrap: [
     AppComponent,
-    AboutComponent,
-    ContactComponent,
-    HeaderComponent,
-    HomeComponent,
-    NavigationComponent
   ]
 })
 export class AppModule { }
