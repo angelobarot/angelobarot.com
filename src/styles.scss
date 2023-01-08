@@ -11,31 +11,16 @@
     --content-margin: 1.5rem auto;
 }
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-
 body {
 	line-height: 1.5;
     background-color: #353B48;
     font-family: 'Montserrat';
+	color: var(--text);
+	font-size: 1.35rem;
+}
+
+a {
+	color: var(--text);
 }
 
 p {
@@ -45,4 +30,19 @@ p {
 
 p.medium {
 	font-size: 1.35rem;
+}
+
+.page-title {
+	margin-top: 1.5rem;
+}
+
+.page-title, h1, h2, h3 {
+	line-height: 1.2;
+	margin: 0;
+}
+
+h1 {
+	font-size: 3rem;
+	color: var(--text);
+	font-weight: 900;
 }
