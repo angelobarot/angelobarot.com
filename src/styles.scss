@@ -21,6 +21,8 @@ body {
 
 a {
 	color: var(--text);
+	cursor: pointer;
+	text-decoration: underline;
 }
 
 p {
