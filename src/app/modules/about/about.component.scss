@@ -1,14 +1,8 @@
-div {
+.about {
     display: block;
 
-    img {
+    .my-pic {
         float: left;
         margin-right: 20px;
-    }
-
-    .underconstruction-container {
-        width: 100%;
-        display: flex;
-        justify-content: center;
     }
 }
