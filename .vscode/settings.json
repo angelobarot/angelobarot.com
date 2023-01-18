@@ -1,9 +1,0 @@
-{
-    "explorer.confirmDragAndDrop": false,
-    "editor.codeActionsOnSave": {
-    },
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.wrappingIndent": "same",
-    "editor.wordWrapColumn": 120,
-    "editor.indentSize": "tabSize"
-}
